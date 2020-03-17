@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypted</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1 class="title">Crypted</h1>
+    <form class="form">
+        <select name="coin" id="coin">
+            <option value="eth">Ethereum-ETH</option>
+            <option value="btc">Bitcoin-BTC</option>
+            <option value="ltc">Litecoin-LTC</option>
+            <option value="xrp">Ripple-XRP</option>
+            <option value="wrx">Wazirx-WRX</option>
+        </select>
+        <select name="currency" id="currency">
+            <option value="usd">USD</option>
+            <option value="inr">INR</option>
+            <option value="btc">BTC</option>
+        </select>
+        <button>GO</button>
+    </form>
+    <div class="coin_name" id="name">Coin</div>
+    
+    <div class="coin_detials">
+        <p id="label">Label : </p>
+        <p id="price">Price : </p>
+        <p id="volume24">24H Volume : </p>
+    </div>
+    <script src="/js/app.js"></script>
+</body>
+</html>

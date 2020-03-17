@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap");
+*{
+  background-color: #ddd;color:#ddd;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+form,
+h1 {
+  display: inline;
+}
+form * {
+  outline: none;
+  width: 150px;
+  height: 43px;
+  border-radius: 20px;
+  border: 0;
+  margin:10px;
+  color: #888;
+  box-shadow: 3px 2px 2px #00000020, -3px -2px 2px #ffffff70,
+    inset -1px -1px 3px #00000010, inset 1px 1px 2px #ffffff50;
+  box-sizing: border-box;
+  padding: auto 10px;
+  border: 1px solid #ffd900;
+}
+form button {
+  font-weight: 400;
+  font-size: 1.2em;
+}
+form *:hover,
+form *:active {
+  border: 1px solid transparent;
+  box-shadow: inset 3px 2px 2px #00000020, inset -3px -2px 2px #ffffff70,
+    -1px -1px 3px #00000010, 1px 1px 2px #ffffff50;
+}
+.title {
+  text-align: left;
+  font-size: 5em;
+  margin: 30px 50px;
+  font-weight: 700;
+  text-shadow: -1px -1px 2px #00000070, 1px 1px 2px #fff, -1px 1px 2px #00000060,
+    1px -1px 2px #ffffff;
+}
+.coin_detials {
+   padding-top: 20px;
+  width: 50%;
+  margin-top: -16%;
+  margin-left: 52%;
+}
+.coin_detials p {
+  margin: 10px 20px;
+  text-align: left;
+  font-size: 2em;
+  
+  font-weight: 600;
+  text-shadow: 1px 1px 1px #00000045, -1px -1px 1px #ffffff5e,
+  1px -1px 1px #00000042, -1px 1px 1px #ffffff;
+}
+.coin_name {
+  margin-left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  position: relative;
+  width: 300px;
+  height: 300px;
+  
+  margin-top: 10%;
+  
+  font-size: 2.8em;
+  font-weight: 600;
+  text-shadow: -1px -1px 1px #00000045, 1px 1px 1px #ffffff5e,
+    -1px 1px 1px #00000042, 1px -1px 1px #ffffff;
+    border-radius: 50%;
+    box-shadow: 3px 2px 2px #00000020, -3px -2px 2px #ffffff70,
+    inset -2px -2px 3px #00000010, inset 2px 2px 2px #ffffff50;
+  }
+.coin_name:before {
+  border: 2px solid #ffd90050;
+  content: "";
+  position: absolute;
+  top: 3px;
+  bottom: 3px;
+  left: 3px;
+  right: 3px;
+  border-radius: 50%;
+  box-shadow: inset 3px 2px 2px #00000020, inset -3px -2px 2px #ffffff70,
+  -1px -1px 3px #00000010, 1px 1px 2px #ffffff50;
+}
